@@ -1,7 +1,7 @@
-const hamburger = document.getElementById('hamburger');
+const nav = document.getElementById('nav');
 const menu = document.querySelector('.menu');
 
-hamburger.addEventListener('click', function () {
+nav.addEventListener('click', function () {
     const hamIcon = this.querySelector('.hamburger-icon');
     const crossIcon = this.querySelector('.cross-icon');
     if (hamIcon.style.display === "none") {
@@ -12,7 +12,7 @@ hamburger.addEventListener('click', function () {
     else {
         crossIcon.style.display = "inline-block"
         hamIcon.style.display = "none"
-        menu.style.display = "block"
+        menu.style.display = "inline-block"
     }
 });
 

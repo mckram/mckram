@@ -15,6 +15,8 @@ body {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    padding-top:50px;
+    padding:30px;
     color: #000000 ;
 }
 
@@ -39,9 +41,11 @@ body {
 
 .menu {
     padding: 0 5rem;
+    margin-top: 30px;
+    display:'inline-block'
 }
 
-.hamburger {
+.nav {
     display: none;
     color: #000000 ;
     font-size: 25px;
@@ -57,7 +61,7 @@ body {
 }
 
 .menu-list .menu-list-items {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem;    display: flex;
 }
 
 @media screen and (min-width: 856px) and (max-width: 1024px) {
@@ -70,6 +74,7 @@ body {
 .hero {
     height: 100vh;
     padding:10px;
+    margin-top:
 }
 
 .hero .intro {
@@ -110,7 +115,7 @@ body {
 .portfolio {
     margin: 4.8rem 0;
     padding: 0 5rem;
-    margin-top:50px;
+    padding-top:150px;
 }
 
 .port-card {
@@ -286,6 +291,7 @@ body {
     border-bottom: 2px solid transparent;
     transition: all 0.25s;
     padding: 5px;
+    font-size:1.5rem;
     text-decoration: none;
     color: #000000 ;
 }
@@ -370,5 +376,6 @@ body {
     height: 100%;
     object-fit: cover;
   }
+  
   
   
