@@ -36,6 +36,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("logo").style.height = "5rem";
   } else {
-    document.getElementById("logo").style.height = "10rem";
+    document.getElementById("logo").style.height = "7rem";
   }
 }
