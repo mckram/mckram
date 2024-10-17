@@ -16,13 +16,26 @@ hamburger.addEventListener('click', function () {
     }
 });
 
+function myFunction(imgs) {
+    // Get the expanded image
+    var expandImg = document.getElementById("expandedImg");
+    // Get the image text
+    var imgText = document.getElementById("imgtext");
+    // Use the same src in the expanded image as the image being clicked on from the grid
+    expandImg.src = imgs.src;
+    // Use the value of the alt attribute of the clickable image as text inside the expanded image
+    imgText.innerHTML = imgs.alt;
+    // Show the container element (hidden with CSS)
+    expandImg.parentElement.style.display = "block";
+  };
+
   // When the user scrolls down 50px from the top of the document, resize the header's font size
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("logo").style.height = "5rem";
+    document.getElementById("header").style.fontSize = "30px";
   } else {
-    document.getElementById("logo").style.height = "10rem";
+    document.getElementById("header").style.fontSize = "90px";
   }
 }
