@@ -2,7 +2,7 @@
 /* CSS for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 820px) {
     .logo {
-        padding: 0 3rem;
+        padding:0 3rem;
     }
 
     .hamburger {
@@ -59,12 +59,9 @@
 @media screen and (min-width: 280px) and (max-width: 576px) {
     .hero {
         justify-content: center;
-        color: #fff;
+
     }
 
-    .sub-heading {
-        color: #fff9f9cc;
-    }
 
     .hero .intro-buttons {
         gap: 20px;
