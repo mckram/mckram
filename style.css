@@ -23,9 +23,9 @@ body {
     max-height:10rem;
 }
 #logo{
+    padding: 20px;
     transition: 0.4s;
     max-height:10rem;
-    height:100px;
 }
 .logo:hover {
     opacity: 0.5;
