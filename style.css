@@ -83,6 +83,7 @@ body {
 /* Main Hero Section Styles */
 .hero {
     height: 45rem;
+    margin-bottom:100px;
 }
 
 .hero .intro {
