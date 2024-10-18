@@ -10,10 +10,11 @@ body {
 .figma{
     width:50rem;
 }
+
 .figma_2{
-    width:33rem;
+    width:35rem;
     align:center;
-    margin-left:50px;
+
 }
 /* Header Navbar Styles */
 .navbar {

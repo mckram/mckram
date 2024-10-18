@@ -25,6 +25,7 @@
     .figma_2{
         width:60%;
         max-width:60%;
+        margin-left:0px;
     }
     .menu {
         position: absolute;
@@ -103,6 +104,7 @@
     .figma_2{
         width:60%;
         max-width:60%;
+        margin-left:0px;
     }
     .hero .intro-buttons {
         gap: 20px;
