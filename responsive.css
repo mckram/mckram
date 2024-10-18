@@ -1,6 +1,11 @@
 /* Responsive CSS file styles defined for smaller width devices */
 /* CSS for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 1000px) {
+
+    .body{
+        max-width:100%
+
+    }
     .logo {\h
     }
     .headings {
@@ -62,9 +67,12 @@
         align-text:center;
     }
 
-
+    .about-pic{
+        width:100%;
+    
+    }
     .about .about-image img {
-        width: 100%;
+        width: 50%;
         padding: 1rem;
     }
 
@@ -144,7 +152,10 @@
     .portfolio {
         padding: 0;
     }
-
+    .about-pic{
+        width:100%;
+    
+    }
     .about {
         flex-direction: column;
     }
