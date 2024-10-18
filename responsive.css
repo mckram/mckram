@@ -1,7 +1,7 @@
 /* Responsive CSS file styles defined for smaller width devices */
 /* CSS for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 820px) {
-    .logo {
+    .logo {\h
     }
     .headings {
         margin-top:100px;

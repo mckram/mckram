@@ -28,7 +28,7 @@ body {
 
 .logo {
     transition: 0.4s;
-    height: 7rem;
+    height: 10rem;
 }
 #logo{
     padding: 20px;
@@ -316,7 +316,7 @@ body {
 }
 
 .links:hover {
-    border-bottom: 2px solid #6082B6;
+    border-bottom: 2px solid #9CBA9B;
 }
 
 .links {
@@ -325,7 +325,7 @@ body {
     padding: 5px;
     font-size:1.5rem;
     text-decoration: none;
-    color: #000000 ;
+    color: #3A5D3A;;
 }
 
 .about-pic{

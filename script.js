@@ -34,8 +34,8 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("logo").style.height = "5rem";
+    document.getElementById("logo").style.height = "6rem";
   } else {
-    document.getElementById("logo").style.height = "7rem";
+    document.getElementById("logo").style.height = "7em";
   }
 }
