@@ -8,7 +8,7 @@ body {
     font-family: 'calling-code', sans-serif;
 }
 .figma{
-    width:50rem;
+    width:40rem;
 }
 .figma_2{
     width:30rem;
@@ -269,10 +269,10 @@ body {
 
 /* utility classes */
 .greet-heading {
-    font-size: 5rem;
+    font-size:3rem;
     font-weight: lighter;
     margin: 0;
-    padding-bottom:50px;
+    padding-bottom:10px;
     letter-spacing: 1px;
     color: #36454F;
 }
