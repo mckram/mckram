@@ -18,6 +18,10 @@
         width:90%;
         max-width:90%;
     }
+    .figma_2{
+        width:70%;
+        max-width:70%;
+    }
     .menu {
         position: absolute;
         right: 0;
@@ -79,6 +83,10 @@
     .figma{
         width:90%;
         max-width:90%;
+    }
+    .figma_2{
+        width:70%;
+        max-width:70%;
     }
     .hero .intro-buttons {
         gap: 20px;

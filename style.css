@@ -10,6 +10,9 @@ body {
 .figma{
     width:50rem;
 }
+.figma_2{
+    width:30rem;
+}
 /* Header Navbar Styles */
 .navbar {
     display: flex;
@@ -24,12 +27,12 @@ body {
 
 .logo {
     transition: 0.4s;
-    max-height:10rem;
+    height: 7rem;
 }
 #logo{
     padding: 20px;
     transition: 0.4s;
-    max-height:10rem;
+    height: 7rem;
 }
 .logo:hover {
     opacity: 0.5;
@@ -67,9 +70,9 @@ body {
 }
 
 .headings{
-    margin-top:50px;
+    margin-top:100px;
+    font-size:20rem;
 }
-
 @media screen and (min-width: 856px) and (max-width: 1024px) {
     .menu-list .menu-list-items {
         padding: 0.5rem 0.3rem;
@@ -79,7 +82,6 @@ body {
 /* Main Hero Section Styles */
 .hero {
     height: 100vh;
-    margin-top:
 }
 
 .hero .intro {
@@ -267,10 +269,12 @@ body {
 
 /* utility classes */
 .greet-heading {
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-weight: lighter;
     margin: 0;
+    padding-bottom:50px;
     letter-spacing: 1px;
+    color: #36454F;
 }
 
 .my-heading {
