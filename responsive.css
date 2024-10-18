@@ -6,6 +6,9 @@
         max-width:100%
 
     }
+    .about{
+        padding-top:20px;
+    }
     .logo {\h
     }
     .headings {
@@ -88,9 +91,12 @@
         text-align: center;
         width: 35%;
     }
+    .navbar {
+
+        background-color: transparent;
+    }
 
 }
-
 
 /* CSS for mobile devices */
 @media screen and (min-width: 100px) and (max-width: 576px) {
@@ -98,6 +104,11 @@
         max-width:100%
 
     }
+
+    .about{
+        padding-top:20px;
+    }
+
     .hero {
         justify-content: center;
         margin-bottom:0px;
@@ -230,5 +241,9 @@
 
     .footer-list-items {
         margin: 0;
+    }
+    .navbar {
+
+        background-color: transparent;
     }
 }
