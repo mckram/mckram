@@ -32,7 +32,6 @@ body {
 }
 #logo{
     padding: 20px;
-    padding-left:100px;
     transition: 0.4s;
     height: 7rem;
 }
