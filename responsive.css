@@ -51,18 +51,21 @@
     }
 
     .about .about-text {
-        padding: 2rem;
+        width: 100%;
+        padding: 1rem;
     }
 
     .about-par{
-        width: 90%;
-        padding: 1rem; 
+        width: 100%;
         margin:auto;
+        padding:20px;
+        align-text:center;
     }
 
 
     .about .about-image img {
-        padding: 2rem;
+        width: 100%;
+        padding: 1rem;
     }
 
     .services {
@@ -147,18 +150,19 @@
     }
 
     .about .about-text {
-        width: 90%;
+        width: 100%;
         padding: 1rem;
     }
 
     .about .about-image img {
-        width: 90%;
+        width: 100%;
         padding: 1rem;
     }
     .about-par{
-        width: 90%;
-        padding: 1rem; 
+        width: 100%;
         margin:auto;
+        padding:20px;
+        align-text:center;
     }
 
     .services {
