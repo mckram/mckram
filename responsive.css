@@ -15,7 +15,7 @@
         background-color:#FFFFFF;
     }
     .figma{
-        height:20rem;
+        width:90%;
     }
     .menu {
         position: absolute;
@@ -76,7 +76,7 @@
 
     }
     .figma{
-        height:20rem;
+        width:90%;
     }
     .hero .intro-buttons {
         gap: 20px;
