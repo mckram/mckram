@@ -1,6 +1,9 @@
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     padding: 0;

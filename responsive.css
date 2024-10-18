@@ -2,7 +2,7 @@
 /* CSS for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 1000px) {
 
-    .body{
+    body{
         max-width:100%
 
     }
@@ -94,6 +94,10 @@
 
 /* CSS for mobile devices */
 @media screen and (min-width: 100px) and (max-width: 576px) {
+    body{
+        max-width:100%
+
+    }
     .hero {
         justify-content: center;
         margin-bottom:0px;
