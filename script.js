@@ -32,4 +32,4 @@ function scrollFunction() {
 function load_page()
 { document.getElementById("loading").style.display = "none" }
 
-window.setTimeout(load_page, 2000)
+window.setTimeout(load_page, 0)

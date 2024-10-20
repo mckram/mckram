@@ -6,8 +6,6 @@
         max-width:100%
 
     }
-    .logo {\h
-    }
     .headings {
         margin-top:100px;
 
@@ -49,6 +47,7 @@
 
     .portfolio {
         padding: 0;
+        margin-top:200px;
     }
 
     .about {
@@ -75,6 +74,9 @@
     .about .about-image img {
         width: 50%;
         padding: 1rem;
+    }
+  .contact-cont{
+        height:500px;
     }
 
     .services {
@@ -106,6 +108,9 @@
     .about{
         padding-top:20px;
         height:1100px;
+    }
+    .contact-cont:{
+        height:500px;
     }
 
     .hero {
@@ -165,6 +170,7 @@
 
     .portfolio {
         padding: 0;
+        margin-top:100px;
     }
     .about-pic{
         width:100%;
