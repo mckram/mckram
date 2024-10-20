@@ -20,8 +20,10 @@ menu.addEventListener('click', function () {
     const hamIcon = this.querySelector('.hamburger-icon');
     const crossIcon = this.querySelector('.cross-icon');
     if (menu.style.display === "inline-block") {
-        menu.style.display = "none"
-        
+        menu.style.display = "none"     
+    }
+    else {
+        menu.style.display = "inline-block"
     }
 });
 
@@ -48,3 +50,16 @@ function scrollFunction() {
     document.getElementById("logo").style.height = "7em";
   }
 }
+
+document.onreadystatechange = function () {
+    var state = document.readyState
+    if (state == 'interactive') {
+         document.getElementById('body').style.visibility="hidden";
+    } else if (state == 'complete') {
+        setTimeout(function(){
+           document.getElementById('interactive');
+           document.getElementById('load').style.visibility="hidden";
+           document.getElementById('body').style.visibility="visible";
+        },3000);
+    }
+  }

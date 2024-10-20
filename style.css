@@ -10,6 +10,10 @@ body {
     box-sizing: border-box;
     font-family: 'calling-code', sans-serif;
 }
+
+.menu_smol{
+    display:'none'
+}
 .figma{
     width:50rem;
 }
@@ -333,6 +337,7 @@ body {
     font-size:1.5rem;
     text-decoration: none;
     color: #3A5D3A;;
+    display:'inline-block'
 }
 
 .about-pic{
@@ -429,5 +434,16 @@ body {
     object-fit: cover;
   }
   
-  
+  #load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background-colour:#ffffff;
+
+}
+#logo_load{
+    position:center;
+    
+}
   
