@@ -473,5 +473,9 @@ body {
   }
 
   #esg{
-    height: 100px
+    height: 300px
+  }
+
+  #esg:hover{
+    opacity:80%;
   }

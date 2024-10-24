@@ -102,6 +102,10 @@
         padding:20px;
     }
 
+    #esg{
+        height: 15vh
+      }
+
 }
 
 /* CSS for mobile devices */
@@ -268,6 +272,10 @@
     #brands{
         font-size:30px;
     }
+
+    #esg{
+        height: 15vh
+      }
 }
 
 @media screen and (min-width: 800px) and (max-width: 2000px){
