@@ -226,44 +226,35 @@ body {
 
 /
 /* Footer Styles */
-.footer {
+.footers {
     text-align: center;
     vertical-align: middle;
     margin:auto;
     padding:20px;
+    height:200px;
 }
 
-.footer-list-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    margin: 1rem 1rem 0 1rem;
-    border-radius: 50%;
-    background-color: #53C8B6;
+#footers {
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
+    padding:20px;
+    height:200px;
 }
+.footer_grp {
+    margin:auto;
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
 
-.footer-links {
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
 }
-
 .social-links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-menu {
-    padding: 0 5rem;
-}
 
-.footer-menu .footer-menu-list {
-    display: flex;
-    list-style: none;
-}
 
 
 

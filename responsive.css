@@ -95,7 +95,7 @@
 
         background-color: transparent;
     }
-    .footer {
+    .footers {
         text-align: center;
         vertical-align: middle;
         margin:auto;
@@ -258,19 +258,13 @@
         width: 80%;
     }
 
-    .footer-menu {
-        padding: 0 2rem;
-    }
 
-    .footer-list-items {
-        margin: 0;
-    }
     .navbar {
 
         background-color: transparent;
     }
 
-    .footer {
+    .footers {
         text-align: center;
         vertical-align: middle;
         margin:auto;
